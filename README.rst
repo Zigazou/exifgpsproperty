@@ -31,6 +31,7 @@ The following libraries must be installed:
 Under Debian 8 (Jessie), these libraries can be installed with:
 
 .. code:: shell
+
     apt-get install gir1.2-osmgpsmap-1.0 python-gi-cairo gir1.2-gexiv2-0.10 python-nautilus
 
 Installation
@@ -44,5 +45,6 @@ The Python script must be copied in one of the following directories:
 Once the script is ready, you need to restart Nautilus:
 
 .. code:: shell
+
     killall nautilus
 
