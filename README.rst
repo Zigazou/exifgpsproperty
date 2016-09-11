@@ -37,10 +37,13 @@ Under Debian 8 (Jessie), these libraries can be installed with:
 Installation
 ------------
 
-The Python script must be copied in one of the following directories:
+The Python script exifgpsproperty.py must be copied in one of the following
+directories:
 
 - ~/.local/share/nautilus-python/extensions
 - /usr/share/nautilus-python/extensions
+
+No other file is needed! exifgpsproperty.py is a self contained application.
 
 Once the script is ready, you need to restart Nautilus:
 
